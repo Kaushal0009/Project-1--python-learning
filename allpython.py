@@ -1,14 +1,14 @@
-                                                                                                                        # chap -1 - Complete Course Python
+                                                               # chap -1 - Complete Course Python
 
 # How to Use comments - we use "#" for comments
 # How to Use escape series - Use of      \\, \n, \t,   in programs 
 # How to Use Python as Calculater - print (2+3), print(2**3), print(5%2)
 
-print("This is \\\\ double backslash")
+'''print("This is \\\\ double backslash")
 print("These are  //\\//\\//\\//\\ mountains")
 print("He is \tAwsome")
 print('line_1 \nline_2')
-
+'''
 # # Print("2+3")
 # print(2**3)
 # print(5%2)
@@ -23,13 +23,13 @@ print('line_1 \nline_2')
 # Name_One = "Soni"               # Here again we assign a diffrent value to same variable in same program.
 # print (Name_One)
 
-Name1 = "Hello"
+'''Name1 = "Hello"
 Name2 =  123
 print(Name1, Name2)
+'''
 
 
-
-                                                                                                                                        # Chap -2 Summary
+                                                        # Chap -2 Summary
 # What is string   -  "KAUSHAL" 'SONI'
 # what is string Indexing - TO FIND THE LENGTH OF THE STRING
 # What is String slicing 
@@ -216,7 +216,7 @@ print(name.title())         # First in Upper and rest in lowercase
 #     print("sorry, under age")
 
 
-# name, age = input("Enter your Name and age ").split()
+ name, age = input("Enter your Name and age ").split()
 # age = int(age)
 # if age>=14:
 #     print("Congratulations You are In Dear " +name.title())
@@ -739,9 +739,11 @@ print(square(list1))
 # tutorial 145 - **kwargs
 # **kwargs is a Dictonery {}
 
-def demo(**kwargs):
+'''def demo(**kwargs):
     print(kwargs)
 
 d={'name':'kaushal', 'age':'27'}
 demo(**d)
+'''
 
+ 
